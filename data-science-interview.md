@@ -32,3 +32,12 @@
 - Техники генерации фичей
 - Мешает ли линейным моделям корреляция признаков? Методы обучения линейных моделей. Проблемы точного решения и их решения
 - Отличие mean и average
+
+## Neurokeks
+
+- Backpropogation. Chain rule
+- Optimizers
+- Activation functions
+- Dataset augmentation
+- Batcnorm layer
+- Dropout layer

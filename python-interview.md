@@ -42,8 +42,10 @@ https://www.youtube.com/watch?v=PxIqLgjtQ5Y&list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQU
 - Yield in generators. Send()
 - `__str__` vs `__repr__`
 - Dict preserving order of keys
-- Decorators
+- Function and class decorators
 - Closures
+- properties
+- slots
 
 ## Numpy, Scipy
 
