@@ -1,6 +1,6 @@
 # Python interview questions
 
-## Usefull links
+## Useful links
 
 https://towardsdatascience.com/53-python-interview-questions-and-answers-91fa311eec3f
 https://www.youtube.com/watch?v=PxIqLgjtQ5Y&list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQUy0s&index=1
@@ -37,8 +37,23 @@ https://www.youtube.com/watch?v=PxIqLgjtQ5Y&list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQU
 - map, reduce, filter
 - copy, deepcopy, `[:]` and list multiplication
 - Множественное наследование, проблемы, MRO
+
 - What is GIL? Why GIL is still exist?
+  - [RealPython article](https://realpython.com/python-gil/). tl;dr GIL is a mutex, one per Python
+    interpreter. It allows to avoid race conditions while dealing with object references in a
+    multi-threaded environment. GIL is kinda hard to remove, as C extensions used by Python are 
+    tightly coupled with GIL mechanism. Main outcome of the GIL - CPU-bound tasks are slower in
+    Python when decoupled into several threads.
+
 - What does [[…]] mean in python?
+  - [StackOverflow question](https://stackoverflow.com/questions/15849399/self-referencing-lists).
+  tl;dr `[...]` is a notation for self-referencing. For instance, 
+  ```
+  >>> data = ['foo', 'bar']
+  >>> data.append(data)
+  >>> data
+  ['foo', 'bar', [...]]
+  ```
 - Yield in generators. Send()
 - `__str__` vs `__repr__`
 - Dict preserving order of keys
