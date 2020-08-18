@@ -1,7 +1,13 @@
 # Interview questions
+
 Here I'll try to ask some stupid questions but not bother to answer them.
 
 Repo is due to severe cleaning up. Watch the questions at your own risk.
+
+## Links
+
+- [Сборник теоретических задачи по ML (Russian)](https://drive.google.com/file/d/1r2bmQtIxlr8J-TpBeFi4CWzbChJG4iHe/view)
+- [Another great repo with DS interview questions](https://github.com/alexeygrigorev/data-science-interviews/blob/master/theory.md)
 
 ## Sections
 
