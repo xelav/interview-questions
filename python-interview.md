@@ -66,6 +66,8 @@ https://www.youtube.com/watch?v=PxIqLgjtQ5Y&list=PLQC2_0cDcSKBHamFYA6ncnc_fYuEQU
 
 - Slicing
 - Broadcasting
+- Dimensions: squeezing, adding new ones and reshaping
+- `np.dot` vs `np.matmul` vs `@`
 
 ## Pandas
 
